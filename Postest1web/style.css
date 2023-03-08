@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  color: #f4f4f4;
+  background-image: url("img/bg2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 7%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+.navbar .navbar-nav a {
+  color: whitesmoke;
+  display: inline-blok;
+  font-size: 20px;
+  margin: 0 16px;
+}
+
+.navbar .navbar-nav a:hover {
+  color: #c8a579;
+}
+section {
+  margin: 10% 48% 20% 5%;
+  padding: 5%;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+}
+
+section h1 {
+  font-size: 60px;
+}
+
+section p {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+}
+
+section .button a .btnmulai {
+  font-size: 20px;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+section .button a .btnmulai:hover {
+  background-color: #c8a579;
+}
+footer {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  position: absolute;
+  bottom: 0px;
+}
+
+footer .credit p {
+  padding-left: 50px;
+}
+.about {
+  margin: 8% 20% 10% 20%;
+  padding: 1%;
+  font-family: "Poppins", sans-serif;
+  border: 2px solid whitesmoke;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  position: absolute;
+  backdrop-filter: blur(1px);
+}
+
+.about h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.about p {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  text-align: justify;
+}
+
+form {
+  margin: auto;
+  width: 50%;
+}
+
+label {
+  padding: 0.5rem 0;
+  display: block;
+}
+.form {
+  margin: auto;
+  margin-top: 8%;
+  padding: 1%;
+  width: 30rem;
+  height: 65%;
+  font-family: "Poppins", sans-serif;
+  border: 2px solid whitesmoke;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  backdrop-filter: blur(1px);
+}
+
+.form .form-group {
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+}
+
+.form .form-group .btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+[type="email"],
+[type="text"],
+[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 1px;
+}
+
+.contact {
+  border: 1px solid red;
+  margin: 8% 20% 10% 20%;
+  padding: 1%;
+  font-family: "Poppins", sans-serif;
+  border: 2px solid whitesmoke;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  position: absolute;
+  backdrop-filter: blur(1px);
+}
+
+.contact p {
+  text-align: justify;
+}
+
+.contact h1 {
+  text-align: center;
+}
+
+.contact-icon {
+  margin: auto;
+  margin-top: 60px;
+}
+
+.contact-icon a {
+  margin: 27px;
+}
+
+.contact-icon img {
+  -webkit-transition: -webkit-transform 1.1s ease-in-out;
+  transition: transform 1.1s ease-in-out;
+}
+.contact-icon img:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+/* .contact-icon a:hover img {
+  transform: rotate(180deg);
+}
+
+.contacct-icon a img {
+  transition: 2s;
+} */
+/* Media queries*/
+/* Laptop*/
+@media (max-witdh: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+/* Tablet*/
+@media (max-witdh: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+/* Smartphone*/
+@media (max-witdh: 450px) {
+  html {
+    font-size: 55%;
+  }
+}
